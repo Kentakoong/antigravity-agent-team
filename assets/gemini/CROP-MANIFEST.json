@@ -1,0 +1,381 @@
+[
+  {
+    "section": "00",
+    "title": "Open Settings \u2192 Skills",
+    "proposedCropLTRB": [
+      0,
+      308,
+      662,
+      1515
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0,
+      0.19,
+      0.23,
+      0.935
+    ],
+    "caption": "Keep the open settings menu and Skills row; remove the greeting, account avatar, and blank main canvas.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "00-settings-skills.png",
+    "sourceSha256": "4e18912c72bc202de79be0b0331fbdc7875af9675afdc2c81e9c681779d0ea43",
+    "imageSha256": "ec0d7f16288307b4729173b94f6b1239edfde9db721a87794918deb060803c1a",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_app (2).png"
+  },
+  {
+    "section": "00",
+    "title": "Choose Upload skill",
+    "proposedCropLTRB": [
+      749,
+      97,
+      2275,
+      1199
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.26,
+      0.06,
+      0.79,
+      0.74
+    ],
+    "caption": "Keep Skills heading, upload icon, and empty custom-Skills area; remove recommendations.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "00-upload-button.png",
+    "sourceSha256": "61e98ca38f7268d97abc71236a8f069ab6b1a9c5b3b164274aedadfb96fabb52",
+    "imageSha256": "56469252f7a3f5d1e4271181951884364789cab9f8e96cb40d354d64df25c29a",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_skills.png"
+  },
+  {
+    "section": "00",
+    "title": "Select the Builder Markdown file",
+    "proposedCropLTRB": [
+      907,
+      243,
+      1973,
+      1385
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.315,
+      0.15,
+      0.685,
+      0.855
+    ],
+    "caption": "Keep the whole upload dialog and file-selection link.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "00-upload-dialog.png",
+    "sourceSha256": "68a3b002190ae16dfd364b63f3fc19825da50c89444d66086e68987612af6417",
+    "imageSha256": "bd4ec289b15e067f92f024c64a2d024422e5aea708ac08d937773fed8f663b4a",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_skills(2).png"
+  },
+  {
+    "section": "00",
+    "title": "Review the Builder and click Create",
+    "proposedCropLTRB": [
+      418,
+      0,
+      2592,
+      931
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.145,
+      0,
+      0.9,
+      0.575
+    ],
+    "caption": "Keep Create, exact Builder name, description, and beginning of instructions.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "00-review-create.png",
+    "sourceSha256": "4fc6fdbd435e2ce3bc0eb328ca3f07ff499a2623435c8839e32a1b4370605f91",
+    "imageSha256": "1e63c8a85d508753003e22c9c4fd93a3da6697fad51ddb22c6079ce0cee9393f",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_skills (4).png"
+  },
+  {
+    "section": "00",
+    "title": "Verify the Builder is Active",
+    "proposedCropLTRB": [
+      763,
+      73,
+      2246,
+      721
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.265,
+      0.045,
+      0.78,
+      0.445
+    ],
+    "caption": "Keep Skills heading, Active heading, and Builder card; remove recommendations and account area.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "00-active-builder.png",
+    "sourceSha256": "43b792766a26ac41f7f0d2779510b86d0670bfcf16fcbb3bedab9ca4d7961636",
+    "imageSha256": "296718a49e6aa50c4f666f1579630cc34f0576b6a001e9379a6282cbb8e0d026",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_skills (5).png"
+  },
+  {
+    "section": "01",
+    "title": "Select the Builder once",
+    "proposedCropLTRB": [
+      806,
+      737,
+      2203,
+      956
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.28,
+      0.455,
+      0.765,
+      0.59
+    ],
+    "caption": "Keep slash composer, real Skill-picker option, and Flash selector.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "01-skill-picker.png",
+    "sourceSha256": "f54310a3bca4eb7fcb8c0a91c6fcdc80b66cf1e248c203ac1c09f45980f0d855",
+    "imageSha256": "4f3032ea9ee94bff20df147591d1eb5e9b793f1786457afdedff5f1baa04d224",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_app (3).png"
+  },
+  {
+    "section": "01",
+    "title": "Paste the quiz workflow brief",
+    "proposedCropLTRB": [
+      1152,
+      130,
+      2246,
+      486
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.4,
+      0.08,
+      0.78,
+      0.3
+    ],
+    "caption": "Keep the complete first prompt. Describe future topics/documents; do not attach runtime material here.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "01-quiz-prompt.png",
+    "sourceSha256": "8d7dc5d0191806c33f66edd0c441fb7688fdbac16601495dbb85fe0f2c387ee7",
+    "imageSha256": "68e0239e8df33a9d0b05d84f1d234af1af23d3f577bb36cb24ba3e82fb17f00b",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_app_db985e0c4d7b9dbf.png"
+  },
+  {
+    "section": "01",
+    "title": "Understand the proposed roles",
+    "proposedCropLTRB": [
+      749,
+      518,
+      2275,
+      1336
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.26,
+      0.32,
+      0.79,
+      0.825
+    ],
+    "caption": "Keep the visible design overview and role descriptions; use a text diagram for the full four-component flow.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "01-quiz-design.png",
+    "sourceSha256": "8d7dc5d0191806c33f66edd0c441fb7688fdbac16601495dbb85fe0f2c387ee7",
+    "imageSha256": "0c4a388fe650bc486185a354e7b30cc5b39dcb7d42ae013f942b6d8080d3340a",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_app_db985e0c4d7b9dbf.png"
+  },
+  {
+    "section": "01",
+    "title": "Authorize build and copy each file",
+    "proposedCropLTRB": [
+      749,
+      429,
+      2261,
+      1385
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.26,
+      0.265,
+      0.785,
+      0.855
+    ],
+    "caption": "Keep the build prompt, component explanation, FILE destination, and Copy code toolbar. Copy the complete code, not only the visible excerpt.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "01-build-copy.png",
+    "sourceSha256": "03842209d60d09a0da017b8266a678b3321cc889048f88f58da413f8aa857390",
+    "imageSha256": "2eba86f91bdb36b2d7bb8c0770dc99807c61ceedb4da9b9119b6847ac9a12286",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_app_db985e0c4d7b9dbf (1).png"
+  },
+  {
+    "section": "01",
+    "title": "Recognize when generation is finished",
+    "proposedCropLTRB": [
+      749,
+      97,
+      2275,
+      972
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.26,
+      0.06,
+      0.79,
+      0.6
+    ],
+    "caption": "Keep CURRENT, all four destinations, Next Pending Component: None, and save instructions.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "01-build-complete.png",
+    "sourceSha256": "f57cbf88999e5799d72f30b4b28b27fa922671725a263423d96a3564f48b6ca9",
+    "imageSha256": "26235b1b64d3c604a32751d8b5faff9e9e8b790daa9e0167ffb3246b25801f4c",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_app_db985e0c4d7b9dbf (2).png"
+  },
+  {
+    "section": "03",
+    "title": "Propose the HTML extension",
+    "proposedCropLTRB": [
+      749,
+      81,
+      2275,
+      1369
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.26,
+      0.05,
+      0.79,
+      0.845
+    ],
+    "caption": "Keep the extension question and the proposed HTML-builder responsibility.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "03-html-proposal.png",
+    "sourceSha256": "077d99640379f0c38be0a33c1a6ec2eb1a6b5e2b5119a98b7565af95eb376b5d",
+    "imageSha256": "ac019ef08487f00a2e9376864fffaabb328bc62311060bc6f6307e184385b458",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_app_db985e0c4d7b9dbf (3).png"
+  },
+  {
+    "section": "03",
+    "title": "Apply the change and save the new agent",
+    "proposedCropLTRB": [
+      749,
+      211,
+      2275,
+      1385
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.26,
+      0.13,
+      0.79,
+      0.855
+    ],
+    "caption": "Keep apply, the explanation, exact new destination, Copy code toolbar, and beginning of the agent definition.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "03-html-apply.png",
+    "sourceSha256": "d952d1a016bfa62d984737ae373c2a52ec93ef104afa1ba241303a4f660828fc",
+    "imageSha256": "a2972a511d00baf172d07c0e0a582490628d21aec0bf2a4a83a77b14bf7b46a4",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_app_db985e0c4d7b9dbf (4).png"
+  },
+  {
+    "section": "03",
+    "title": "Save the replacement entry and finish",
+    "proposedCropLTRB": [
+      749,
+      0,
+      2275,
+      956
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.26,
+      0,
+      0.79,
+      0.59
+    ],
+    "caption": "Keep CURRENT, the five-file inventory, None pending, and updated save instructions.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "03-html-complete.png",
+    "sourceSha256": "7b8d9c27a0115d3396cf9a82c7f06b9f3c7d921974aea300b9af4eaf09aac16c",
+    "imageSha256": "3bfd8cbbacbe2d8412c599f7bc0eec3b8ef2aa379acfe09584d0144bf479ea01",
+    "operation": "sips crop only; no resampling or generated pixels",
+    "sourceFilename": "gemini.google.com_app_db985e0c4d7b9dbf (5).png"
+  },
+  {
+    "section": "01",
+    "title": "Download the generated Markdown file",
+    "proposedCropLTRB": [
+      740,
+      310,
+      2240,
+      1390
+    ],
+    "sourceDimensions": [
+      2880,
+      1620
+    ],
+    "cropNormalizedLTRB": [
+      0.2569444444444444,
+      0.19135802469135801,
+      0.7777777777777778,
+      0.8580246913580247
+    ],
+    "caption": "Keep component purpose, FILE destination and Markdown toolbar with Download beside Copy.",
+    "status": "CROPPED_FROM_USER_ORIGINAL",
+    "image": "01-download-file.png",
+    "sourceFilename": "gemini.google.com_app_db985e0c4d7b9dbf.png",
+    "sourceDirectory": "Downloads (new user attachment; not images_raw)",
+    "sourceSha256": "5ab2dfe644934dc2fefd8f31721e07d292ee0260a7c1167dff8c5d1c80853fe1",
+    "imageSha256": "82ae1dafc415ab81d8850d75e94ea041e60965fba3f4866de6eb418c25eaccca",
+    "operation": "sips crop only; no resampling or generated pixels"
+  }
+]

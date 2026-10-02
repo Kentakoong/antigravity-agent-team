@@ -1,0 +1,226 @@
+[
+  {
+    "source": "codex-clipboard-86332604-9d70-42b0-aaf2-76ff3f1539aa.png",
+    "original_size": [
+      3024,
+      2024
+    ],
+    "output": "02-new-project-menu.png",
+    "crop_bounds": [
+      120,
+      420,
+      1190,
+      650
+    ],
+    "operation": "crop-only",
+    "source_sha256": "8aa526885c11eded853cf57237c3d2eda86b2b82671e724a77f8a84d497ca5c8"
+  },
+  {
+    "source": "Screenshot 2026-10-04 at 10.16.45\u202fPM.png",
+    "original_size": [
+      4112,
+      2658
+    ],
+    "output": "02-create-project.png",
+    "crop_bounds": [
+      1030,
+      490,
+      3090,
+      1410
+    ],
+    "operation": "crop-only",
+    "source_sha256": "1df633cdae5893a3a12f081ac08fe52fd5de3275af06578c76ca96d14f4c9899"
+  },
+  {
+    "source": "Screenshot 2026-10-04 at 10.21.04\u202fPM.png",
+    "original_size": [
+      4112,
+      2580
+    ],
+    "output": "02-project-ready.png",
+    "crop_bounds": [
+      1600,
+      850,
+      3250,
+      1220
+    ],
+    "operation": "crop-only",
+    "source_sha256": "165b3af841714d6a2e03e941e9a955549c24c2166aa449db944bfd57746f9663"
+  },
+  {
+    "source": "codex-clipboard-d3e26760-80d5-448e-90a9-85a515bd38e1.png",
+    "original_size": [
+      4112,
+      2580
+    ],
+    "output": "02-skill-picker.png",
+    "crop_bounds": [
+      1600,
+      850,
+      3250,
+      1220
+    ],
+    "operation": "crop-only",
+    "source_sha256": "604633199005fedc414b99e40eda38a3cae254e004857749c3bbd761bf15721f"
+  },
+  {
+    "source": "codex-clipboard-dd73be97-c263-457d-ad01-5225bdddaeb4.png",
+    "original_size": [
+      4112,
+      2580
+    ],
+    "output": "02-model-and-entry.png",
+    "crop_bounds": [
+      1600,
+      850,
+      3250,
+      1220
+    ],
+    "operation": "crop-only",
+    "source_sha256": "60af11a42a183a5f0629d4d8ffdd8e72b5b3303a384c16bc39d5c20ed273e609"
+  },
+  {
+    "source": "codex-clipboard-b72d04d4-abfb-45a6-a39a-8da67a79402a.png",
+    "original_size": [
+      4112,
+      2580
+    ],
+    "output": "02-first-prompt.png",
+    "crop_bounds": [
+      1600,
+      850,
+      3250,
+      1220
+    ],
+    "operation": "crop-only",
+    "source_sha256": "f571f2b2f9e3a3077286c365756a858d6476b1240ade2022d744f199ee968887"
+  },
+  {
+    "source": "codex-clipboard-58828c45-279e-4147-b3b6-14b013dc77ad.png",
+    "original_size": [
+      4112,
+      2580
+    ],
+    "output": "02-missing-input.png",
+    "crop_bounds": [
+      1610,
+      2040,
+      3190,
+      2575
+    ],
+    "operation": "crop-only",
+    "source_sha256": "ad05cfbcc3244d89c3fc16107c00864ecccfc8adc937772a7fa49f5fc41cc20e"
+  },
+  {
+    "source": "codex-clipboard-5e143e0b-7180-4de4-9e8c-0f654c5760bf.png",
+    "original_size": [
+      4112,
+      2580
+    ],
+    "output": "02-student-level.png",
+    "crop_bounds": [
+      1610,
+      2040,
+      3190,
+      2575
+    ],
+    "operation": "crop-only",
+    "source_sha256": "d7e05e51f1ab035d0a8e8ebbc3de8e2fc14c2aa3a2b099af0deef24536bc9732"
+  },
+  {
+    "source": "codex-clipboard-ac651172-00bc-4f6a-8e20-c1dfd91b3fff.png",
+    "original_size": [
+      4112,
+      2580
+    ],
+    "output": "02-question-count.png",
+    "crop_bounds": [
+      1610,
+      2040,
+      3190,
+      2575
+    ],
+    "operation": "crop-only",
+    "source_sha256": "a69d1f0a2fe6dca8370d40f859204c6e6072ea269c2b14b747caa2020246add5"
+  },
+  {
+    "source": "codex-clipboard-3bad2175-dafc-40b3-a960-24d273a3a9cb.png",
+    "original_size": [
+      4112,
+      2580
+    ],
+    "output": "02-runtime-input.png",
+    "crop_bounds": [
+      1610,
+      100,
+      3190,
+      810
+    ],
+    "operation": "crop-only",
+    "source_sha256": "17b4aa49902cad2035b627b526b2dbeacc456bb00771c6ddc9101218e015368b"
+  },
+  {
+    "source": "codex-clipboard-a9ab9de1-e305-4672-887c-7273dfd61123.png",
+    "original_size": [
+      4112,
+      2580
+    ],
+    "output": "02-html-file-link.png",
+    "crop_bounds": [
+      1620,
+      2060,
+      3180,
+      2240
+    ],
+    "operation": "crop-only",
+    "source_sha256": "7ea25bf4adb117b49428466f997fc426f0456146a2d23bd7838d561820995ae7"
+  },
+  {
+    "source": "codex-clipboard-7f722b39-1d32-4f90-be80-dcf14ad91242.png",
+    "original_size": [
+      4112,
+      2580
+    ],
+    "output": "02-team-activity.png",
+    "crop_bounds": [
+      2740,
+      85,
+      4100,
+      455
+    ],
+    "operation": "crop-only",
+    "source_sha256": "0031a50d4faacf6701a560714e78894c94561591dd736437f94f19324cb8c240"
+  },
+  {
+    "source": "codex-clipboard-2cc780d6-c0ac-4d82-afa1-98b97280cad5.png",
+    "original_size": [
+      4336,
+      2804
+    ],
+    "output": "02-quiz-page.png",
+    "crop_bounds": [
+      1320,
+      240,
+      3010,
+      1700
+    ],
+    "operation": "crop-only",
+    "source_sha256": "715bbe203f1b37b589056fdc24e1d8479a3737246041f3d89b0aaf2dc1320c4d"
+  },
+  {
+    "source": "codex-clipboard-9e9e441c-37f6-40d3-bef1-8550787d868a.png",
+    "original_size": [
+      4336,
+      2804
+    ],
+    "output": "02-interactive-quiz.png",
+    "crop_bounds": [
+      1320,
+      240,
+      3010,
+      2620
+    ],
+    "operation": "crop-only",
+    "source_sha256": "6d9bede78d889564e8d6ccf690b0bcee77653200d50ce73a48007ea4d14376d4"
+  }
+]

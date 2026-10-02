@@ -1,0 +1,44 @@
+# Publish only participant lessons, their images and the empty project scaffold.
+/*
+!/.gitignore
+!/README.md
+!/00-gemini-setup/
+!/01-gemini-skill/
+!/02-antigravity-setup/
+!/03-debug-and-improve/
+!/99-no-gemini-skills-fallback/
+!/assets/
+!/my-team/
+
+# Local development material, historical evidence and validator scripts.
+/local-artifacts/
+# Guard against new artifacts accidentally appearing at the root.
+/benchmarks/
+/evidence/
+/runs/
+/router-*/
+/workshop-edit-cycle/
+/examples/
+/validate_repository.py
+*.py
+
+# Keep only the empty participant scaffold; generated definitions stay local.
+/my-team/**
+!/my-team/.agents/
+!/my-team/.agents/agents/
+!/my-team/.agents/agents/.gitkeep
+!/my-team/.agents/skills/
+!/my-team/.agents/skills/.gitkeep
+!/my-team/sources/
+!/my-team/sources/.gitkeep
+
+# OS files, caches, private inputs and generated results.
+.DS_Store
+__pycache__/
+*.py[cod]
+outputs/
+*.log
+*.tmp
+*.bak
+.env
+.env.*

@@ -1,6 +1,6 @@
 # Step 03 — Add an interactive quiz page
 
-Turn the reviewed quiz into a page where students can select answers and see their score and explanations.
+After [testing the four-file team in Step 02](../02-antigravity-setup/README.md), extend it to turn the reviewed quiz into a page where students can select answers and see their score and explanations. This step adds `quiz-html-builder.md` and replaces the team's `SKILL.md`, bringing the team to five files.
 
 ## 1. Ask Gemini for the change
 
@@ -66,8 +66,50 @@ You are finished when:
 
 If a file is missing or incomplete, ask Gemini for the complete file before moving on. These screenshots show the example conversation; your own files still need to be downloaded and saved.
 
-## Try the updated team in Antigravity
+## 5. Run the extended team in Antigravity
 
-Use [the Antigravity walkthrough](../02-antigravity-setup/README.md) to open your project and test the updated team with **Gemini 3.6 Flash**. If you already ran the team, start a fresh chat, select `quiz-generation-team`, and try the same quiz request again. Check the saved page's answers, score and explanations.
+Return to the **my-team** project you created in Step 02. Use **Local** and **Gemini 3.6 Flash**. Start a fresh chat so it uses the updated instructions, select `quiz-generation-team` from the Skill menu, and try the same quiz request again. Follow [Step 02's input steps](../02-antigravity-setup/README.md#4-let-the-team-ask-what-it-needs) if needed.
+
+Your folder should now contain:
+
+```text
+my-team/
+├── .agents/
+│   ├── agents/
+│   │   ├── quiz-creator.md
+│   │   ├── quiz-verifier.md
+│   │   └── quiz-html-builder.md
+│   └── skills/
+│       ├── quiz-generator/SKILL.md
+│       └── quiz-generation-team/SKILL.md
+├── sources/
+└── outputs/
+```
+
+The expected order is **write → independently check → correct if needed → check again → create the HTML page**. HTML should be created only after the quiz passes review. Open the worker activity and details to confirm the creator, verifier and HTML builder ran in that order; worker names in a response alone do not prove execution.
+
+![The extended team's three completed workers](../assets/antigravity/02-team-activity.png)
+
+Open `my-team/outputs/` and confirm both the reviewed quiz and HTML page are saved. Use the actual filenames reported by the team. In the example, the response links to **python_basics_quiz.html**.
+
+![HTML quiz file linked in the response](../assets/antigravity/02-html-file-link.png)
+
+## 6. Try the quiz page
+
+Open the saved HTML file in a browser. Answer the questions and use its submit/check button.
+
+![Python Basics quiz opened in a browser](../assets/antigravity/02-quiz-page.png)
+
+- Check correct and incorrect answers show the right feedback.
+- Compare the score with the reviewed answer key.
+- Check explanations appear after answering or submitting.
+- Try reset/retry if available.
+- Check the page works as a standalone file, without a separate server.
+
+Report any mismatch with the question, your choice and the displayed result. Recheck the correction before using or sharing the quiz.
+
+![Completed quiz showing 5 out of 10 and correct-answer feedback](../assets/antigravity/02-interactive-quiz.png)
+
+This capture shows **5/10 (50%)**, correct-answer feedback and a **Retake Quiz** button. Check incorrect-answer explanations and the retake behavior too. The Antigravity image filenames keep their original `02-` prefix; these HTML results belong to the extended team in Step 03.
 
 For other changes, [these optional prompts](repair-prompts.md) explain what to send in Gemini and what to ask directly in Antigravity.

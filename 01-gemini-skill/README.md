@@ -8,7 +8,7 @@ Start a new Gemini chat. Select **Flash**, type `/`, and choose **design-reusabl
 
 ![Choose the Builder and Flash](../assets/gemini/01-skill-picker.png)
 
-Select it once at the start. Keep the same chat for the remaining prompts.
+Select it at the start. Keep the same chat for the remaining prompts. If the Builder instructions become unavailable, select or supply the complete Skill again before resuming.
 
 ## 2. Describe the team you want
 
@@ -35,6 +35,8 @@ Build that team now. Each quiz should collect the topics or source document, int
 ![The build request and first file](../assets/gemini/01-build-copy.png)
 
 Gemini explains each file and gives it to you one at a time.
+
+Each build reply should end with a compact context checkpoint: the agreed scope, delivered and pending definitions, scoped authorization, evidence, and repair history. Keep the latest checkpoint alongside your downloads. It helps recover a long or restarted chat; it is not proof that the files were saved or tested.
 
 ## 4. Download each file
 
@@ -69,11 +71,16 @@ Stop sending `Continue` when:
 - All four complete files are saved.
 - Every listed component says **CURRENT**.
 - Gemini says **Next Pending Component: None**.
+- The checkpoint says **Authorization: Closed**.
 
 ![All four files are current and nothing remains pending](../assets/gemini/01-build-complete.png)
 
 One file saying CURRENT does not mean the whole team is finished. You will check whether the saved team works in Antigravity.
 
-## Add the interactive page
+If Gemini loses context, supply the latest checkpoint and the current definitions needed for the next dependency. In a fresh chat, select or supply the complete Builder first and state which pending build or agreed change you want to resume. Gemini should recover essential missing context before generating files. See [Recover a long or restarted Builder chat](../03-debug-and-improve/repair-prompts.md#recover-a-long-or-restarted-builder-chat).
 
-Open [Add an interactive quiz page](../03-debug-and-improve/README.md) and stay in this Gemini chat. After saving the updated files, [try the team in Antigravity](../02-antigravity-setup/README.md) with **Gemini 3.6 Flash**.
+## Try the initial team
+
+At this point, you have four instruction files. `quiz-html-builder.md` is added later in Step 03.
+
+Next, [try the team in Antigravity](../02-antigravity-setup/README.md) with **Gemini 3.6 Flash** to write and check a quiz. Keep this Gemini Builder chat so you can return to it in [Step 03](../03-debug-and-improve/README.md) to add the interactive page.

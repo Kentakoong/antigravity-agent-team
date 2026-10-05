@@ -1,12 +1,14 @@
 # Step 02 — Try your quiz team in Antigravity
 
-Create a project, run your team and check the interactive quiz page. Use **Gemini 3.6 Flash**. If the model or credits run out, stop; do not switch to Flash Lite.
+Create a project, run your initial team and check the quiz and answer key. Use **Gemini 3.6 Flash**. If the model or credits run out, stop; do not switch to Flash Lite.
 
-Have the five files from [building the team](../01-gemini-skill/README.md) and [adding HTML](../03-debug-and-improve/README.md) saved first. The project-creation screenshots are ready; the quiz run is being checked next.
+Have the four files from [building the team](../01-gemini-skill/README.md) saved first. This step tests the quiz creator and verifier. You will add `quiz-html-builder.md` in [Step 03](../03-debug-and-improve/README.md).
+
+The screenshots were captured with the HTML extension already installed. Use them to locate the controls; HTML output and the third worker belong to Step 03.
 
 ## 1. Prepare your folder
 
-Use the workshop's **my-team** folder. If it does not exist, create it beside the numbered lessons. Keep the files you already downloaded in Steps 01 and 03.
+Use the workshop's **my-team** folder. If it does not exist, create it beside the numbered lessons. Keep the four files you downloaded in Step 01.
 
 Your folder should contain:
 
@@ -15,8 +17,7 @@ my-team/
 ├── .agents/
 │   ├── agents/
 │   │   ├── quiz-creator.md
-│   │   ├── quiz-verifier.md
-│   │   └── quiz-html-builder.md
+│   │   └── quiz-verifier.md
 │   └── skills/
 │       ├── quiz-generator/SKILL.md
 │       └── quiz-generation-team/SKILL.md
@@ -24,11 +25,11 @@ my-team/
 └── outputs/
 ```
 
-The creator writes, the verifier checks, and the HTML builder makes the page. `quiz-generator` explains the writing method; `quiz-generation-team` runs the team. Use the updated team file from Step 03.
+The creator writes and the verifier checks. `quiz-generator` explains the writing method; `quiz-generation-team` runs the team. Use the original team file from Step 01; the initial team delivers the quiz, answer key and explanations.
 
 Create `outputs/` if missing. Keep old instruction backups outside `.agents`. On macOS, **Command + Shift + .** reveals hidden folders. See [the save reference](SAVE-REFERENCE.md) for exact locations.
 
-> **Screenshot 1 — Project folder:** Show my-team and the five instruction files. Save as `02-project-folder.png`.
+> **Screenshot 1 — Project folder:** Show my-team and the four instruction files from Step 01. Save as `02-project-folder.png`.
 
 <!-- IMAGE SLOT: ../assets/antigravity/02-project-folder.png -->
 
@@ -98,11 +99,13 @@ You can choose **Other** to write your own answer. For a document-based quiz, at
 
 Keep the same chat after submitting your answers. You do not need to reselect the Skill each turn.
 
-The expected order is **write → independently check → correct if needed → check again → create the HTML page**. HTML should be created only after the quiz passes review.
+The expected order is **write → independently check → correct if needed → check again → deliver the reviewed quiz**.
 
 Look at the actual worker activity or its history. A response naming the workers alone does not prove they ran. If a worker cannot run or the reviewer cannot read the required material, stop that step and keep the error for [repair](../03-debug-and-improve/repair-prompts.md).
 
-Open the activity panel to see the workers. In this run, **Quiz Draft Creator**, **Quiz Auditor & Verifier** and **HTML Web App Builder** all completed. Open their details to read the review and check the order.
+Open the activity panel to see the quiz creator and verifier. Open their details to read the review and check the order.
+
+The example screenshot below was taken after Step 03, so it also shows **HTML Web App Builder**. Your initial four-file team should use only the creator and verifier.
 
 ![Completed quiz-team workers](../assets/antigravity/02-team-activity.png)
 
@@ -110,34 +113,16 @@ Open the activity panel to see the workers. In this run, **Quiz Draft Creator**,
 
 Open `my-team/outputs/` and the files named in the team's response. Use the actual filenames it reports.
 
-Check for ten Python Basics questions at College / University level, four choices each, one correct answer and brief explanations. Read the review and any corrections. Confirm both the quiz and HTML page are saved.
+Check for ten Python Basics questions at College / University level, four choices each, one correct answer and brief explanations. Read the review and any corrections. Confirm the reviewed quiz, answer key and explanations are saved. Check a few answers against the supplied topic or source material.
 
 > **Screenshot 7 — Saved result:** Show the output files and the final response or review result. Save as `02-saved-result.png`.
 
 <!-- IMAGE SLOT: ../assets/antigravity/02-saved-result.png -->
 
-## 8. Try the quiz page
+## 8. Add the interactive page
 
-The response links to **python_basics_quiz.html**. Open the saved file in a browser. Answer the questions and use its submit/check button.
+Read the final quiz and review before using or sharing it. If the reusable instructions need a correction, use [the Gemini repair prompts](../03-debug-and-improve/repair-prompts.md), save the replacements, then test again in a fresh Antigravity chat.
 
-![HTML quiz file linked in the response](../assets/antigravity/02-html-file-link.png)
-
-![Python Basics quiz opened in a browser](../assets/antigravity/02-quiz-page.png)
-
-- Check correct and incorrect answers show the right feedback.
-- Compare the score with the reviewed answer key.
-- Check explanations appear after answering or submitting.
-- Try reset/retry if available.
-- Check the page works as a standalone file, without a separate server.
-
-Report any mismatch with the question, your choice and the displayed result. Recheck the correction before using the quiz.
-
-![Completed quiz showing 5 out of 10 and correct-answer feedback](../assets/antigravity/02-interactive-quiz.png)
-
-This capture shows **5/10 (50%)**, correct-answer feedback and a **Retake Quiz** button. Check incorrect-answer explanations and the retake behavior too.
-
-## Decide whether to use it
-
-Read the final quiz, check the review and try the page before using or sharing it. If the reusable instructions need a change, use [the Gemini repair prompts](../03-debug-and-improve/repair-prompts.md), save the replacements, then test again in a fresh Antigravity chat.
+Once the initial team works, open [Step 03 — Add an interactive quiz page](../03-debug-and-improve/README.md). Return to your Gemini Builder chat to create `quiz-html-builder.md` and update the team instructions. Then rerun the extended team in this Antigravity project and check the page.
 
 During our guided test, we will stop at each screenshot space and wait for your capture and **continue**. Work may finish between pauses; use activity history where needed. See [the screenshot list](../assets/antigravity/README.md).

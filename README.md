@@ -1,6 +1,6 @@
 # Build a reusable quiz team
 
-Use Gemini to create your team's instructions, then run the team in Antigravity. It writes a quiz, checks the answers and turns the checked quiz into an interactive page.
+Use Gemini to create your team's instructions, then run the team in Antigravity to write and check a quiz. After that, extend the team to turn the checked quiz into an interactive page.
 
 Use **Flash in Gemini** and **Gemini 3.6 Flash in Antigravity**.
 
@@ -10,10 +10,10 @@ Use **Flash in Gemini** and **Gemini 3.6 Flash in Antigravity**.
 | --- | --- |
 | [00 — Set up Gemini](00-gemini-setup/README.md) | Upload the Builder Skill. |
 | [01 — Build the quiz team](01-gemini-skill/README.md) | Describe the workflow and download four instruction files. |
-| [03 — Add an interactive page](03-debug-and-improve/README.md) | Add one file and update the team's main instructions. |
-| [02 — Try it in Antigravity](02-antigravity-setup/README.md) | Create a project, run the team and check the quiz page. |
+| [02 — Try it in Antigravity](02-antigravity-setup/README.md) | Create a project and test the four-file team by writing and checking a quiz. |
+| [03 — Add an interactive page](03-debug-and-improve/README.md) | Add the HTML builder, update the team's main instructions and test the quiz page. |
 
-For this HTML example, follow **00 → 01 → 03 → 02**. Step 03 stays in the same Gemini chat; Step 02 uses your finished files in Antigravity.
+Follow **00 → 01 → 02 → 03**. Step 01 creates four instruction files; Step 02 tests that initial team. In Step 03, return to the same Gemini Builder chat to add `quiz-html-builder.md` and update the team instructions, then test the extended team in Antigravity.
 
 An **Agent** handles a job, such as writing or checking questions. A **Skill** gives reusable instructions for doing the work.
 

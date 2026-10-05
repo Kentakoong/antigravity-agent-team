@@ -23,12 +23,12 @@ Stop when all four complete files are saved, every component is **CURRENT**, and
 
 ![The completed four-file list](../../../assets/gemini/01-build-complete.png)
 
-## Add HTML if wanted
-
-Follow [Add an interactive quiz page](../../../03-debug-and-improve/README.md) in the same chat. Review the proposal, send `apply`, download the new `quiz-html-builder.md`, then send `Continue` and download the replacement team `SKILL.md`.
-
-Keep the original quiz method, creator and verifier. Back up the old team instructions outside `.agents` before replacing them. The HTML builder should receive only a quiz that passed review.
-
 ## Try the saved team
 
-Use [the save reference](../../../02-antigravity-setup/SAVE-REFERENCE.md) to check file locations, then [try it in Antigravity](../../../02-antigravity-setup/README.md) with **Gemini 3.6 Flash**. A CURRENT label does not mean the team has been tested.
+Use [the save reference](../../../02-antigravity-setup/SAVE-REFERENCE.md) to check the four file locations, then [try the initial team in Antigravity](../../../02-antigravity-setup/README.md) with **Gemini 3.6 Flash**. A CURRENT label does not mean the team has been tested.
+
+## Then add HTML
+
+After testing the initial team, follow [Step 03 — Add an interactive quiz page](../../../03-debug-and-improve/README.md) in the same Gemini Builder chat. Review the proposal, send `apply`, download the new `quiz-html-builder.md`, then send `Continue` and download the replacement team `SKILL.md`.
+
+Keep the original quiz method, creator and verifier. Back up the old team instructions outside `.agents` before replacing them. The HTML builder should receive only a quiz that passed review. Start a fresh Antigravity chat to test the extended team and its page, following Step 03.

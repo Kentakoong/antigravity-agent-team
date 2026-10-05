@@ -5,7 +5,7 @@ These are optional examples, not extra workshop steps. Choose one only when you 
 ## Where to send these prompts
 
 1. Return to the **original Gemini conversation** where you selected `design-reusable-agent-team` and generated the quiz-team files in Step 01. For the workshop example, this is [the Builder conversation](https://gemini.google.com/app/db985e0c4d7b9dbf).
-2. Keep **Gemini Flash** selected. Continue in that same chat; you do not need to select the Builder again for a follow-up.
+2. Keep **Gemini Flash** selected and continue in that same chat. If the Builder instructions are no longer available, select or supply the complete Builder Skill again before continuing.
 3. Send one relevant change request below. Review Gemini's proposal before sending `apply`.
 
 If you only want a different topic, student level or question count for **one quiz**, tell the running team in **Antigravity**, using **Gemini 3.6 Flash**. That is a runtime input change; you do not need to regenerate the reusable definitions.
@@ -47,9 +47,15 @@ What is the smallest team design that still creates useful multiple-choice quizz
 ## After Gemini proposes a change
 
 1. Check which definitions will change and why. If you disagree, explain the adjustment in the same chat.
-2. When the proposal fits, send `apply`.
+2. When the proposal fits, send `apply`. This authorizes that proposal's affected definitions only; it also works after the original build has finished.
 3. Use **Download** on each new or replacement Markdown block. Move/rename it to the exact `FILE:` destination under `my-team/`. Preserve an old version outside the active `.agents/` folder before replacing it; keep unaffected files.
 4. Send `Continue` while another component remains pending. Finish when the complete inventory is **CURRENT** and **Next Pending Component: None**.
 5. Return to [Step 02](../02-antigravity-setup/README.md), start a **fresh Antigravity conversation** with **Gemini 3.6 Flash**, select `quiz-generation-team`, and repeat the affected scenario. Check the actual result before calling the fix successful.
 
 Changing definitions in Gemini does not update an already-running Antigravity conversation by itself. The downloaded replacements must be saved in the project before the fresh test.
+
+## Recover a long or restarted Builder chat
+
+Keep the latest context checkpoint alongside your downloaded definitions. It records the agreed scope, settled decisions, stable names/revisions, delivered and pending work, authorization, evidence, and repair history. It does not prove that files were saved or tested.
+
+If Gemini loses the thread, supply that checkpoint and only the current definitions needed for the next dependency or proposed change. In a fresh chat, select or supply the complete [Builder Skill](../00-gemini-setup/SKILL.md) first. State which pending build or agreed change you want to resume. Gemini should reconcile that context before emitting a file and ask only for missing information. `Continue` after completion should give the runtime handoff, not another definition.

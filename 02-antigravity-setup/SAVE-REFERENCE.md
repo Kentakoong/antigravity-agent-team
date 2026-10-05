@@ -18,6 +18,8 @@ Click **Download** (the circled downward arrow beside the copy icon) on each Mar
 
 Step 03 adds the HTML builder and replaces `quiz-generation-team/SKILL.md` at the same destination. Retain the compatible method, creator and verifier. Preserve the earlier entry version outside the active `.agents` directory.
 
+After Step 01, save the first four files in the table. After Step 03, the folder has all five:
+
 ```text
 my-team/
 └── .agents/
@@ -30,6 +32,8 @@ my-team/
         └── quiz-html-builder.md   ← added in Step 03
 ```
 
-The initial team is complete at four saved CURRENT definitions and None pending; the HTML extension finishes at five. Next, create an Antigravity project using this existing `my-team/` folder. Its `.agents` directory must be directly inside the selected project folder. Use Local mode and the final HTML-enabled entry. Discovery, execution and HTML behavior are checked in Step 02.
+The initial team is complete at four saved CURRENT definitions and None pending. In Step 02, create an Antigravity project using this existing `my-team/` folder and test the initial team. Its `.agents` directory must be directly inside the selected project folder. Use Local mode and the original entry from Step 01.
 
-[00 Gemini setup](../00-gemini-setup/README.md) · [01 Generate and save](../01-gemini-skill/README.md) · [03 Add HTML](../03-debug-and-improve/README.md)
+In Step 03, add the HTML builder and replace the team entry, then start a fresh Antigravity chat to test all five files and the interactive page.
+
+[00 Gemini setup](../00-gemini-setup/README.md) · [01 Generate and save](../01-gemini-skill/README.md) · [02 Test the initial team](README.md) · [03 Add and test HTML](../03-debug-and-improve/README.md)

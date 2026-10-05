@@ -11,7 +11,15 @@ independent reviewer, and leave the use decision to a human.
 
 Use Gemini only for design, build and concrete definition feedback. Do not
 attach a PDF or other runtime source during this conversation. Save each
-complete code block relative to `my-team/`.
+complete Agent/Skill Markdown definition at its stated destination relative
+to `my-team/`. The Builder generates instructions; Antigravity later produces
+quiz content or HTML.
+
+Keep the latest context checkpoint with the downloaded definitions. If the
+chat loses context, supply the checkpoint and relevant current definition
+bytes before continuing. For a fresh chat, supply the complete Builder
+instructions again. The checkpoint helps recover scope and pending work;
+it does not restore missing instructions or prove saved files or runtime checks.
 
 When the original three quiz definitions are complete, an optional extension
 can be requested with:

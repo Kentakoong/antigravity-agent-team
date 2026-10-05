@@ -31,12 +31,13 @@
 !/my-team/.agents/skills/.gitkeep
 !/my-team/sources/
 !/my-team/sources/.gitkeep
+!/my-team/outputs/
+!/my-team/outputs/.gitkeep
 
 # OS files, caches, private inputs and generated results.
 .DS_Store
 __pycache__/
 *.py[cod]
-outputs/
 *.log
 *.tmp
 *.bak

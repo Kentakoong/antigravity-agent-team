@@ -1,6 +1,8 @@
 # Step 00 — Set up the Builder in Gemini
 
-Install the Builder once, then use it to design and generate a reusable quiz team. **Use the Flash model in Gemini** for all workshop prompts. Antigravity comes later and will use **Gemini 3.6 Flash**.
+Install the Builder once, then use it to design and generate a reusable quiz team.
+
+> **Warning:** Use **Flash** in Gemini.
 
 ## 1. Get the Builder Markdown file
 

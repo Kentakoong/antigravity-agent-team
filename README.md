@@ -2,7 +2,14 @@
 
 Use Gemini to create your team's instructions, then run the team in Antigravity to write and check a quiz. After that, extend the team to turn the checked quiz into an interactive page.
 
-Use **Flash in Gemini** and **Gemini 3.6 Flash in Antigravity**.
+## Prerequisites
+
+1. Use a **personal Google account** for [Gemini web](https://gemini.google.com/). [Skills are currently unavailable](https://support.google.com/gemini/answer/17094296?hl=en) on school or business accounts.
+2. Download and install [**Antigravity 2.0**](https://www.antigravity.google/download).
+
+> **Gemini warning:** Use **Flash**.
+
+> **Antigravity warning:** Use **Gemini 3.6 Flash**.
 
 ## Follow the workshop
 
@@ -19,7 +26,7 @@ An **Agent** handles a job, such as writing or checking questions. A **Skill** g
 
 ## Where your files go
 
-Save the downloaded files inside [my-team](my-team/), following each lesson's exact locations. Use [the save reference](02-antigravity-setup/SAVE-REFERENCE.md) if you need the folder layout.
+Save the downloaded files inside [my-team](my-team/), following each lesson's exact locations. See [Step 02's folder layout](02-antigravity-setup/README.md#1-prepare-your-folder) if needed.
 
 No Gemini Skills access? Use [Plan B](99-no-gemini-skills-fallback/README.md).
 

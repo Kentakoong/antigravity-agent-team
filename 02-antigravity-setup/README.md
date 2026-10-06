@@ -1,6 +1,8 @@
 # Step 02 — Try your quiz team in Antigravity
 
-Create a project, run your initial team and check the quiz and answer key. Use **Gemini 3.6 Flash**. If the model or credits run out, stop; do not switch to Flash Lite.
+Create a project, run your initial team and check the quiz and answer key.
+
+> **Warning:** Use **Gemini 3.6 Flash** in Antigravity.
 
 Have the four files from [building the team](../01-gemini-skill/README.md) saved first. This step tests the quiz creator and verifier. You will add `quiz-html-builder.md` in [Step 03](../03-debug-and-improve/README.md).
 
@@ -27,7 +29,12 @@ my-team/
 
 The creator writes and the verifier checks. `quiz-generator` explains the writing method; `quiz-generation-team` runs the team. Use the original team file from Step 01; the initial team delivers the quiz, answer key and explanations.
 
-Create `outputs/` if missing. Keep old instruction backups outside `.agents`. On macOS, **Command + Shift + .** reveals hidden folders. See [the save reference](SAVE-REFERENCE.md) for exact locations.
+Choose how to save the files:
+
+1. **ZIP (recommended):** Use [the ZIP prompt in Step 01](../01-gemini-skill/README.md#5-save-as-a-zip-recommended), then download and extract the ZIP into `my-team/`.
+2. **Download and organize them yourself:** Download each Markdown file and place it under `my-team/` using Gemini's `FILE:` path and exact filename.
+
+Create `outputs/` if needed. On macOS, **Command + Shift + .** shows hidden folders.
 
 > **Screenshot 1 — Project folder:** Show my-team and the four instruction files from Step 01. Save as `02-project-folder.png`.
 
@@ -39,19 +46,19 @@ Create `outputs/` if missing. Keep old instruction backups outside `.agents`. On
 
 ![Choose New Project](../assets/antigravity/02-new-project-menu.png)
 
-2. Open your existing **my-team** folder and click **Open**. Choose the folder containing `.agents`, not `.agents` itself or the workshop parent. Hidden folders may not appear in this window.
+1. Open your existing **my-team** folder and click **Open**. Choose the folder containing `.agents`, not `.agents` itself or the workshop parent. Hidden folders may not appear in this window.
 
 ![Open the my-team folder](../assets/antigravity/02-create-project.png)
 
-3. Check **my-team** appears above the message box. Use **Local** and **Gemini 3.6 Flash**.
+1. Check **my-team** appears above the message box. Use **Local** and **Gemini 3.6 Flash**.
 
 ![Project ready with Flash and Local selected](../assets/antigravity/02-project-ready.png)
 
 Your existing folder becomes the project. You do not need an app template or Git setup.
 
-## 3. Choose the model and Skill
+## 3. Trigger the main Skill
 
-Start a fresh chat in the project. Select **Gemini 3.6 Flash**. Type `/` in the message box, find **quiz-generation-team**, and select it from the menu before sending a message.
+Start a fresh chat with **Gemini 3.6 Flash**. Before prompting, type `/` and select **quiz-generation-team**, the main Skill, from the menu.
 
 This is the Skill that runs your quiz team. The Gemini Builder was used to create its instructions.
 
@@ -65,7 +72,7 @@ Select the result. Its name appears in the message box with a Skill icon. Keep i
 
 ## 4. Let the team ask what it needs
 
-Send:
+With **quiz-generation-team** selected, send:
 
 ```text
 I want to generate a multiple-choice quiz. Help me start.
@@ -83,11 +90,11 @@ For this walkthrough, choose:
 
 ![Choose the quiz topic](../assets/antigravity/02-missing-input.png)
 
-2. **College / University** as the student level, then click **Continue**.
+1. **College / University** as the student level, then click **Continue**.
 
 ![Choose the student level](../assets/antigravity/02-student-level.png)
 
-3. **10 questions**, then click **Submit**. This starts the team.
+1. **10 questions**, then click **Submit**. This starts the team.
 
 ![Choose the question count](../assets/antigravity/02-question-count.png)
 
@@ -101,7 +108,7 @@ Keep the same chat after submitting your answers. You do not need to reselect th
 
 The expected order is **write → independently check → correct if needed → check again → deliver the reviewed quiz**.
 
-Look at the actual worker activity or its history. A response naming the workers alone does not prove they ran. If a worker cannot run or the reviewer cannot read the required material, stop that step and keep the error for [repair](../03-debug-and-improve/repair-prompts.md).
+Look at the actual worker activity or its history. A response naming the workers alone does not prove they ran. If a worker cannot run or the reviewer cannot read the required material, stop that step and keep the error for [repair](../03-debug-and-improve/README.md#7-other-changes-and-repairs).
 
 Open the activity panel to see the quiz creator and verifier. Open their details to read the review and check the order.
 
@@ -121,7 +128,7 @@ Check for ten Python Basics questions at College / University level, four choice
 
 ## 8. Add the interactive page
 
-Read the final quiz and review before using or sharing it. If the reusable instructions need a correction, use [the Gemini repair prompts](../03-debug-and-improve/repair-prompts.md), save the replacements, then test again in a fresh Antigravity chat.
+Read the final quiz and review before using or sharing it. If the reusable instructions need a correction, use [the Gemini repair guidance](../03-debug-and-improve/README.md#7-other-changes-and-repairs), save the replacements, then test again in a fresh Antigravity chat.
 
 Once the initial team works, open [Step 03 — Add an interactive quiz page](../03-debug-and-improve/README.md). Return to your Gemini Builder chat to create `quiz-html-builder.md` and update the team instructions. Then rerun the extended team in this Antigravity project and check the page.
 

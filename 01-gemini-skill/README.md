@@ -1,6 +1,8 @@
 # Step 01 — Build your quiz team
 
-Use **Gemini Flash**. Finish [Gemini setup](../00-gemini-setup/README.md) first. You are creating the team's instructions here; you will supply quiz topics or documents when running it in Antigravity.
+Finish [Gemini setup](../00-gemini-setup/README.md) first. You are creating the team's instructions here; you will supply quiz topics or documents when running it in Antigravity.
+
+> **Warning:** Use **Flash** in Gemini.
 
 ## 1. Select the Builder
 
@@ -38,7 +40,34 @@ Gemini explains each file and gives it to you one at a time.
 
 Each build reply should end with a compact context checkpoint: the agreed scope, delivered and pending definitions, scoped authorization, evidence, and repair history. Keep the latest checkpoint alongside your downloads. It helps recover a long or restarted chat; it is not proof that the files were saved or tested.
 
-## 4. Download each file
+## 4. Finish generating the team
+
+Check each generated file is complete. Send `Continue` while another file is pending. Stop when:
+
+- All four complete files have been generated.
+- Every listed component says **CURRENT**.
+- Gemini says **Next Pending Component: None**.
+- The checkpoint says **Authorization: Closed**.
+
+![All four files are current and nothing remains pending](../assets/gemini/01-build-complete.png)
+
+One file saying CURRENT does not mean the whole team is finished. You will check whether the saved team works in Antigravity.
+
+If Gemini loses context, supply the latest checkpoint and the current definitions needed for the next dependency. In a fresh chat, select or supply the complete Builder first and state which pending build or agreed change you want to resume. Gemini should recover essential missing context before generating files. See [Recover a long or restarted Builder chat](../03-debug-and-improve/README.md#recover-a-long-or-restarted-builder-chat).
+
+## 5. Save as a ZIP (recommended)
+
+Once no files remain pending, send this in the same Gemini chat:
+
+```text
+Combine all the latest Markdown files created or modified for this team into one downloadable ZIP. Preserve their exact paths under a top-level .agents/ folder inside the ZIP, include only the latest version of each file, and give it to me.
+```
+
+![Gemini provides a ZIP download for the blog-post team](../assets/gemini/01-zip-download.png)
+
+Download and extract the ZIP into `my-team/`.
+
+## 6. Save manually (optional)
 
 Use the workshop's **my-team** folder, beside the numbered lessons. Create missing folders as needed. Every path after Gemini's `FILE:` label starts inside `my-team/`.
 
@@ -49,35 +78,14 @@ Use the workshop's **my-team** folder, beside the numbered lessons. Create missi
 | `my-team/.agents/agents/quiz-verifier.md` | Independently checks the questions and answers. |
 | `my-team/.agents/skills/quiz-generation-team/SKILL.md` | Asks for missing information and runs the team. |
 
-For each file:
+If you prefer individual downloads:
 
 1. Click **Download**, the circled downward arrow beside the copy icon.
 2. Move the download to its exact location in the table. Rename it if needed; use `SKILL.md`, not `SKILL (1).md`.
 3. Open it in a text editor and check that the whole file is present, including the information at the top. If it is incomplete, ask Gemini for the complete file.
-4. After saving, send this in the same chat if another file is pending:
-
-```text
-Continue
-```
-
 ![The Download button beside the copy icon](../assets/gemini/01-download-file.png)
 
 The screenshot shows only part of the file. **Download** gets the file; do not select just the visible text. If your team uses different names, follow its exact `FILE:` locations.
-
-## 5. Check that the team is complete
-
-Stop sending `Continue` when:
-
-- All four complete files are saved.
-- Every listed component says **CURRENT**.
-- Gemini says **Next Pending Component: None**.
-- The checkpoint says **Authorization: Closed**.
-
-![All four files are current and nothing remains pending](../assets/gemini/01-build-complete.png)
-
-One file saying CURRENT does not mean the whole team is finished. You will check whether the saved team works in Antigravity.
-
-If Gemini loses context, supply the latest checkpoint and the current definitions needed for the next dependency. In a fresh chat, select or supply the complete Builder first and state which pending build or agreed change you want to resume. Gemini should recover essential missing context before generating files. See [Recover a long or restarted Builder chat](../03-debug-and-improve/repair-prompts.md#recover-a-long-or-restarted-builder-chat).
 
 ## Try the initial team
 
